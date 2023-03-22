@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .parent {
+        background-color: #1e1f2f;
+        height: 936px;
+        width: 1611px;
+        position: relative;
+        overflow: hidden;
+      }
+      .child-1 {
+        background-color: #ffffff;
+        height: 27.42px;
+        width: 31.06px;
+        top: 125px;
+        left: 130px;
+        position: absolute;
+      }
+      .child-2 {
+        background-color: #e82c4f;
+        height: 68.55px;
+        width: 60.47px;
+        top: 152.45px;
+        left: 161.07px;
+        position: absolute;
+      }
+      .child-2-1 {
+        height: 33.37px;
+        width: 28.31px;
+        top: 170.04px;
+        left: 177.81px;
+        position: absolute;
+      }
+      .child-3 {
+        height: 96px;
+        width: 331px;
+        top: 125px;
+        left: 261.54px;
+        font-family: "Bebas Neue", cursive;
+        font-size: 96px;
+        color: white;
+        position: absolute;
+      }
+      .child-4 {
+        height: 400px;
+        width: 800px;
+        top: 301px;
+        left: 130px;
+        font-family: "Bebas Neue", cursive;
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 156px;
+        line-height: 146px;
+        color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        z-index: 3;
+      }
+      .child-5 {
+        height: 48px;
+        width: 196px;
+        top: 789px;
+        left: 206px;
+        font-family: "Bebas Neue", cursive;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.08cm;
+        text-transform: uppercase;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        color: white;
+        position: absolute;
+      }
+      .child-6 {
+        height: 34px;
+        width: 43.94px;
+        top: 796px;
+        left: 140px;
+        position: absolute;
+      }
+      .child-7 {
+        height: 48px;
+        width: 196px;
+        top: 789px;
+        left: 550px;
+        font-family: "Bebas Neue", cursive;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.08cm;
+        text-transform: uppercase;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        color: white;
+        position: absolute;
+      }
+      .child-8 {
+        height: 40px;
+        width: 40px;
+        top: 793px;
+        left: 484px;
+        position: absolute;
+      }
+      .box-1 {
+        height: 80px;
+        width: 80px;
+        top: 385px;
+        left: 1169px;
+        box-sizing: border-box;
+        border: 20px solid #ffffff;
+        position: absolute;
+        z-index: 7;
+      }
+      .box-2 {
+        height: 240px;
+        width: 240px;
+        top: 305px;
+        left: 1089px;
+        box-sizing: border-box;
+        border: 40px solid #e82c4f;
+        position: absolute;
+        z-index: 6;
+      }
+      .box-3 {
+        height: 80px;
+        width: 80px;
+        top: 585px;
+        left: 1089px;
+        box-sizing: border-box;
+        border: 20px solid #3256a1;
+        position: absolute;
+        z-index: 5;
+      }
+      .box-4 {
+        height: 80px;
+        width: 80px;
+        top: 585px;
+        left: 1249px;
+        box-sizing: border-box;
+        border: 20px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 4;
+      }
+      .box-5 {
+        height: 618px;
+        width: 504px;
+        top: 166px;
+        left: 957px;
+        box-sizing: border-box;
+        border: 60px solid #ffffff;
+        position: absolute;
+        z-index: 3;
+      }
+      .box-6 {
+        height: 644px;
+        width: 558px;
+        left: 1169px;
+        bottom: 471px;
+        box-sizing: border-box;
+        border: 60px solid #48596d;
+        position: absolute;
+        z-index: 2;
+      }
+      .box-7 {
+        height: 644px;
+        width: 558px;
+        top: 385px;
+        left: 691px;
+        box-sizing: border-box;
+        border: 60px solid #2d2f48;
+        position: absolute;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child-1"></div>
+      <div class="child-2"></div>
+      <div class="child-2-1">
+        <img
+          src="c:\Users\User\Downloads\path16.png"
+          alt="c:\Users\User\Downloads\path16.png"
+        />
+      </div>
+      <div class="child-3">warmups</div>
+      <div class="child-4">Lorem ipsum dolor sit</div>
+      <div class="child-5">10 max.</div>
+      <div class="child-6">
+        <img
+          src="c:\Users\User\Downloads\orang.png"
+          alt="c:\Users\User\Downloads\orang.png"
+        />
+      </div>
+      <div class="child-7">20min</div>
+      <div class="child-8">
+        <img
+          src="c:\Users\User\Downloads\jam.png"
+          alt="c:\Users\User\Downloads\jam.png"
+        />
+      </div>
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+      <div class="box-3"></div>
+      <div class="box-4"></div>
+      <div class="box-5"></div>
+      <div class="box-6"></div>
+      <div class="box-7"></div>
+    </div>
+  </body>
+</html>

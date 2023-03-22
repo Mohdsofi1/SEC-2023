@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .A4 {
+        width: 595px;
+        height: 880px;
+        background-color: #110f57;
+        position: relative;
+      }
+      .stick-1 {
+        width: 0px;
+        height: 88px;
+        left: 406px;
+        bottom: 808px;
+        position: absolute;
+        border: 10px solid #00fb82;
+        border-radius: 0 0 10px 10px;
+      }
+      .stick-2 {
+        width: 0px;
+        height: 176px;
+        left: 449px;
+        bottom: 764px;
+        position: absolute;
+        border: 10px solid #fff500;
+        border-radius: 0 0 10px 10px;
+      }
+      .stick-3 {
+        width: 0px;
+        height: 176px;
+        left: 492px;
+        bottom: 720px;
+        position: absolute;
+        border: 10px solid #00fb82;
+        border-radius: 0 0 10px 10px;
+      }
+      .stick-4 {
+        width: 0px;
+        height: 195px;
+        left: 535px;
+        bottom: 745px;
+        position: absolute;
+        border: 10px solid #fff500;
+        border-radius: 0 0 10px 10px;
+      }
+      .photo-1 {
+        width: 202px;
+        height: 134.55px;
+        top: 426px;
+        left: 411px;
+        position: absolute;
+      }
+      .photo-2 {
+        width: 202px;
+        height: 129.65px;
+        top: 660.89px;
+        right: 414px;
+        position: absolute;
+        z-index: 2;
+      }
+      .photo-3 {
+        width: 667px;
+        height: 357px;
+        top: 544px;
+        left: 0px;
+        position: absolute;
+        z-index: 1;
+      }
+      .parent {
+        width: 350px;
+        height: 545px;
+        top: 15px;
+        left: 20px;
+        position: absolute;
+      }
+      .child-1 {
+        width: 128px;
+        height: 41px;
+        top: 40px;
+        left: 38px;
+        position: absolute;
+      }
+      .child-2 {
+        width: 291px;
+        height: 141px;
+        top: 138px;
+        left: 38px;
+        position: absolute;
+        font-family: "Vollkorn", serif;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 66px;
+        color: #00fb82;
+      }
+      .child-3 {
+        width: 329px;
+        height: 165px;
+        top: 308px;
+        left: 39px;
+        position: absolute;
+        font-family: "Lato", sans-serif;
+        font-weight: 500px;
+        font-size: 14px;
+        line-height: 24px;
+        color: grey;
+      }
+      .child-4 {
+        width: 24px;
+        height: 24px;
+        top: 531px;
+        left: 44px;
+        position: absolute;
+        z-index: 4;
+      }
+      .child-5 {
+        width: 24px;
+        height: 24px;
+        top: 532px;
+        left: 87px;
+        position: absolute;
+        z-index: 4;
+      }
+      .child-6 {
+        width: 24px;
+        height: 24px;
+        top: 531px;
+        left: 130px;
+        position: absolute;
+        z-index: 4;
+      }
+      .child-7 {
+        width: 24px;
+        height: 24px;
+        top: 531px;
+        left: 173px;
+        position: absolute;
+        z-index: 4;
+      }
+      .child-8 {
+        width: 35px;
+        height: 35px;
+        top: 526px;
+        left: 39px;
+        position: absolute;
+        z-index: 3;
+      }
+      .child-9 {
+        width: 35px;
+        height: 35px;
+        top: 526px;
+        left: 82px;
+        position: absolute;
+        z-index: 3;
+      }
+      .child-10 {
+        width: 35px;
+        height: 35px;
+        top: 526px;
+        left: 125px;
+        position: absolute;
+        z-index: 3;
+      }
+      .child-11 {
+        width: 35px;
+        height: 35px;
+        top: 526px;
+        left: 168px;
+        position: absolute;
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="A4">
+      <div class="stick-1"></div>
+      <div class="stick-2"></div>
+      <div class="stick-3"></div>
+      <div class="stick-4"></div>
+      <div class="photo-1">
+        <img
+          src="c:\Users\User\Downloads\Group 2.png"
+          alt="c:\Users\User\Downloads\Group 2.png"
+        />
+      </div>
+      <div class="photo-2">
+        <img
+          src="c:\Users\User\Downloads\Group 1.png"
+          alt="c:\Users\User\Downloads\Group 1.png"
+        />
+      </div>
+      <div class="photo-3">
+        <img
+          src="c:\Users\User\Downloads\unsplash_g1Kr4Ozfoac.png"
+          alt="c:\Users\User\Downloads\unsplash_g1Kr4Ozfoac.png"
+        />
+      </div>
+      <div class="parent">
+        <div class="child-1">
+          <img
+            src="c:\Users\User\Downloads\Group 3.png"
+            alt="c:\Users\User\Downloads\Group 3.png"
+          />
+        </div>
+        <div class="child-2">Work Togetherr</div>
+        <div class="child-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+          maxime eos rem ipsum aliquam assumenda quas, labore facere eum
+          voluptate mollitia reiciendis dolorum ipsa inventore, laborum illo
+          alias laboriosam doloribus iure similique eaque? Asperiores fuga magni
+          omnis fugit veniam iusto nobis, suscipit neque consequuntur vel
+          nesciunt adipisci quisquam est ullam!
+        </div>
+        <div class="child-4">
+          <img
+            src="c:\Users\User\Downloads\google.png"
+            alt="c:\Users\User\Downloads\google.png"
+          />
+        </div>
+        <div class="child-5">
+          <img
+            src="c:\Users\User\Downloads\facebook.png"
+            alt="c:\Users\User\Downloads\facebook.png"
+          />
+        </div>
+        <div class="child-6">
+          <img
+            src="c:\Users\User\Downloads\twitter.png"
+            alt="c:\Users\User\Downloads\twitter.png"
+          />
+        </div>
+        <div class="child-7">
+          <img
+            src="c:\Users\User\Downloads\linkedin.png"
+            alt="c:\Users\User\Downloads\linkedin.png"
+          />
+        </div>
+        <div class="child-8">
+          <img
+            src="c:\Users\User\Downloads\Ellipse 60.png"
+            alt="c:\Users\User\Downloads\Ellipse 60.png"
+          />
+        </div>
+        <div class="child-9">
+          <img
+            src="c:\Users\User\Downloads\Ellipse 60.png"
+            alt="c:\Users\User\Downloads\Ellipse 60.png"
+          />
+        </div>
+        <div class="child-10">
+          <img
+            src="c:\Users\User\Downloads\Ellipse 60.png"
+            alt="c:\Users\User\Downloads\Ellipse 60.png"
+          />
+        </div>
+        <div class="child-11">
+          <img
+            src="c:\Users\User\Downloads\Ellipse 60.png"
+            alt="c:\Users\User\Downloads\Ellipse 60.png"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
