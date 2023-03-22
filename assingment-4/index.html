@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .frame {
+        width: 3376px;
+        height: 1970px;
+        background-color: #040404;
+        position: relative;
+      }
+      .parent {
+        width: 2362px;
+        height: 1594px;
+        top: 188px;
+        left: 507px;
+        position: absolute;
+        background-blend-mode: multiply;
+        background: linear-gradient(
+          106.32deg,
+          rgba(255, 255, 255, 0.34) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        border: 8px solid #ffffff;
+        backdrop-filter: blur(100px);
+        border-radius: 80px;
+      }
+
+      .top-1 {
+        width: 1166px;
+        height: 220px;
+        top: 15px;
+        left: 104px;
+        position: absolute;
+      }
+      .child-1 {
+        width: 255px;
+        height: 89px;
+        top: 67px;
+        left: 30px;
+        position: absolute;
+      }
+
+      .child-2 {
+        width: 746px;
+        height: 140px;
+        top: 43px;
+        left: 381px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        text-align: center;
+        line-height: 140px;
+        color: #ffffff;
+      }
+      .top-2 {
+        height: 220px;
+        width: 679px;
+        top: 15px;
+        left: 1578px;
+        position: absolute;
+      }
+      .child-3 {
+        width: 244px;
+        height: 140px;
+        top: 43px;
+        left: 36px;
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        text-align: center;
+        line-height: 140px;
+        color: #ffffff;
+      }
+      .child-4 {
+        width: 314px;
+        height: 140px;
+        top: 43px;
+        left: 341px;
+        background-color: #ff64a5;
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        text-align: center;
+        line-height: 140px;
+        border-radius: 24px;
+        color: #ffffff;
+      }
+      .child-5 {
+        width: 2006px;
+        height: 859px;
+        top: 367px;
+        left: 178px;
+        position: absolute;
+        border: 7px solid #ffffff;
+        border-radius: 359px;
+      }
+      .child-6 {
+        width: 1742px;
+        height: 608px;
+        top: 465px;
+        left: 310px;
+        position: absolute;
+      }
+      .child-7 {
+        width: 644px;
+        height: 695px;
+        top: 449px;
+        left: 336px;
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 570px;
+        align-items: center;
+        line-height: 695px;
+        color: #ffffff;
+      }
+      .child-8 {
+        width: 1456px;
+        height: 733px;
+        left: 328.48px;
+        top: 10px;
+        position: absolute;
+      }
+      .child-9 {
+        width: 789px;
+        height: 695px;
+        top: 449px;
+        left: 1260px;
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 570px;
+        align-items: center;
+        line-height: 695px;
+        color: #d9d9d9;
+      }
+
+      .bottom-1 {
+        width: 472px;
+        height: 111px;
+        top: 1401px;
+        left: 162px;
+        position: absolute;
+        background-color: #4729ff;
+        border-radius: 24px;
+      }
+      .child-10 {
+        width: 58px;
+        height: 66px;
+        top: 26px;
+        left: 66px;
+        position: absolute;
+      }
+      .child-11 {
+        width: 305px;
+        height: 52px;
+        top: 33px;
+        left: 161px;
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 52px;
+        color: #ffffff;
+      }
+      .child-12 {
+        width: 617px;
+        height: 243px;
+        top: 1307px;
+        left: 1664px;
+        position: absolute;
+      }
+      .child-13 {
+        width: 584px;
+        height: 117px;
+        top: 88px;
+        left: 11px;
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        color: #9e9e9e;
+      }
+      .child-14 {
+        width: 617px;
+        height: 76px;
+        bottom: 158px;
+        right: 0px;
+        position: absolute;
+      }
+      .child-15 {
+        width: 317px;
+        height: 52px;
+        top: 13px;
+        left: 11px;
+        position: absolute;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="parent">
+        <div class="top-1">
+          <div class="child-1">
+            <img
+              src="c:\Users\User\Downloads\nike kecik.png"
+              alt="c:\Users\User\Downloads\nike kecik.png"
+            />
+          </div>
+          <div class="child-2">
+            <div>Man</div>
+            <div>Woman</div>
+            <div>Kids</div>
+            <div>Explore</div>
+          </div>
+        </div>
+        <div class="top-2">
+          <div class="child-3">
+            <img
+              src="c:\Users\User\Downloads\cari.png"
+              alt="c:\Users\User\Downloads\cari.png"
+            />
+            Search
+          </div>
+          <div class="child-4">Shop Now</div>
+        </div>
+        <div class="child-5"></div>
+        <div class="child-6">
+          <img
+            src="c:\Users\User\Downloads\nike besar.png"
+            alt="c:\Users\User\Downloads\nike besar.png"
+          />
+        </div>
+        <div class="child-7">NI</div>
+        <div class="child-8">
+          <img
+            src="c:\Users\User\Downloads\kasut.png"
+            alt="c:\Users\User\Downloads\kasut.png"
+          />
+        </div>
+        <div class="child-9">KE</div>
+        <div class="bottom-1">
+          <div class="child-10">
+            <img
+              src="c:\Users\User\Downloads\bag.png"
+              alt="c:\Users\User\Downloads\bag.png"
+            />
+          </div>
+          <div class="child-11">Add to Cart</div>
+        </div>
+        <div class="child-12">
+          <div class="child-13">
+            When a player steps in, a custom motor and gear train senses the
+            tension needed by the foot
+          </div>
+          <div class="child-14">
+            <div class="child-15">Ultra Mechanics</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
