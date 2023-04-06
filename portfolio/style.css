@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://assets.website-files.com/637fe1f84b89d92db337544d/637fe1f84b89d96aaa3754ac_photo-1533106497176-45ae19e68ba2-p-2000.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#top {
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  background-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px -1px 5px 1px inset;
+}
+
+nav {
+  width: 1000px;
+  height: 20px;
+}
+
+/* perkataan punya code */
+nav .left {
+  display: flex;
+  gap: 50px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.9rem;
+}
+nav .logo {
+  width: fit-content;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  gap: 10px;
+}
+.logo:hover {
+  background-color: blue;
+}
+nav .menu {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #151521;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* gambar background */
+.bground {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://assets.website-files.com/637fe1f84b89d92db337544d/637fe1f84b89d96aaa3754ac_photo-1533106497176-45ae19e68ba2-p-2000.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.pixels {
+  background-image: url("https://assets.website-files.com/637fe1f84b89d92db337544d/637fe1f84b89d905ea37546d_Type%3DType%2001.svg");
+  background-repeat: repeat;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+.globe {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+/* about me code */
+.me {
+  top: 70px;
+  left: 70px;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.me:hover {
+  background-color: #dfdfdf;
+}
+.word-1 {
+  margin-top: 4px;
+  padding: 2px 5px;
+  background-color: rgba(22, 22, 20, 0.49);
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+/* lets talk code */
+.talk {
+  top: 155px;
+  left: 70px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.talk:hover {
+  background-color: #dfdfdf;
+}
+/* my schedule code */
+.schedule {
+  top: 250px;
+  left: 60px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.schedule:hover {
+  background-color: #dfdfdf;
+}
+/* my projects code */
+.projects {
+  top: 70px;
+  left: 170px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.projects:hover {
+  background-color: #dfdfdf;
+}
+/* feel bored code */
+.bored {
+  top: 155px;
+  left: 170px;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.bored:hover {
+  background-color: #dfdfdf;
+}
+
+.popup .overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  display: none;
+}
+.popup .show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #dfdfdf;
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.popup .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* .popup:active .overlay {
+  display: block;
+}
+.popup:active .content {
+  transition: all 200ms ease-in-out;
+  transform: translate(-50%, -50%) scale(0);
+} */
